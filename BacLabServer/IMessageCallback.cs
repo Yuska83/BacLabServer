@@ -7,10 +7,10 @@ using System.ServiceModel;
 
 namespace BacLabServer
 {
-    interface ITestCallback
+    public interface IMessageCallback
     {
+        //вызывается на стороне клиента, когда получено общее сообщение
         [OperationContract(IsOneWay = true)]
-        void ShowMessage(string message);
-
+        void OnMessageAdded(string message, DateTime timestamp);
     }
 }

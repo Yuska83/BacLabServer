@@ -7,3 +7,6 @@ c:\users\ифслдфи\documents\visual studio 2015\Projects\BacLabServer\BacLa
 C:\Users\admin\Documents\Visual Studio 2015\Projects\BacLabServer\BacLabServer\bin\Debug\BacLabServer.exe.config
 C:\Users\admin\Documents\Visual Studio 2015\Projects\BacLabServer\BacLabServer\obj\Debug\BacLabServer.exe
 C:\Users\admin\Documents\Visual Studio 2015\Projects\BacLabServer\BacLabServer\obj\Debug\BacLabServer.pdb
+C:\Users\admin\Documents\Visual Studio 2015\Projects\BacLabServer\BacLabServer\bin\Debug\BacLabServer.exe
+C:\Users\admin\Documents\Visual Studio 2015\Projects\BacLabServer\BacLabServer\bin\Debug\BacLabServer.pdb
+C:\Users\admin\Documents\Visual Studio 2015\Projects\BacLabServer\BacLabServer\obj\Debug\BacLabServer.csprojResolveAssemblyReference.cache

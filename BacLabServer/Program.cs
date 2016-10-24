@@ -11,7 +11,7 @@ namespace BacLabServer
     {
         static void Main(string[] args)
         {
-            ServiceHost sh = new ServiceHost(typeof(Test));
+            ServiceHost sh = new ServiceHost(typeof(MessageService));
             sh.Open();
             Console.WriteLine("Для завершения нажмите ENTER");
             Console.ReadLine();
