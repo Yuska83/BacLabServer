@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f8f671b0a70540f69cdd4a0fe218e051" Name="Diagram1">
+        <EntityTypeShape EntityType="BacLab_DBModel.Antibiotic" Width="1.5" PointX="2.5" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BacLab_DBModel.Antibiotics_groups" Width="1.5" PointX="0.625" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BacLab_DBModel.Category_of_patient" Width="1.5" PointX="4.625" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BacLab_DBModel.Department" Width="1.5" PointX="7.125" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BacLab_DBModel.Diagnosi" Width="1.5" PointX="8.125" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="BacLab_DBModel.Identification_Table" Width="1.5" PointX="2.375" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BacLab_DBModel.Institution" Width="1.5" PointX="8.125" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BacLab_DBModel.Material" Width="1.5" PointX="7.125" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BacLab_DBModel.Medium" Width="1.5" PointX="0.625" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BacLab_DBModel.Microorganism" Width="1.5" PointX="0.5" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BacLab_DBModel.Microorganisms_groups" Width="1.5" PointX="2.375" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BacLab_DBModel.Microscopy" Width="1.5" PointX="4.125" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BacLab_DBModel.Olkenickiy" Width="1.5" PointX="2.375" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BacLab_DBModel.p_AB_MO_group_profile" Width="1.5" PointX="0.625" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BacLab_DBModel.p_Study_CategoryPatient" Width="1.5" PointX="6.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BacLab_DBModel.Purpose_of_study" Width="1.5" PointX="4.625" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BacLab_DBModel.Research_group" Width="1.5" PointX="5.375" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BacLab_DBModel.Staff" Width="1.5" PointX="6.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BacLab_DBModel.Staff_category" Width="1.5" PointX="4.5" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BacLab_DBModel.Template_Results" Width="1.5" PointX="5.375" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BacLab_DBModel.Test" Width="1.5" PointX="0.5" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BacLab_DBModel.TestSet" Width="1.5" PointX="2.375" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BacLab_DBModel.Type_Colonyy" Width="1.5" PointX="5.875" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BacLab_DBModel.Variant" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <AssociationConnector Association="BacLab_DBModel.myFK_group_AB" ManuallyRouted="false" />
+        <AssociationConnector Association="BacLab_DBModel.myFK_id_AB" ManuallyRouted="false" />
+        <AssociationConnector Association="BacLab_DBModel.myFK_category_patient" ManuallyRouted="false" />
+        <AssociationConnector Association="BacLab_DBModel.myFK_id_MO" ManuallyRouted="false" />
+        <AssociationConnector Association="BacLab_DBModel.myFK_id_test_Ident" ManuallyRouted="false" />
+        <AssociationConnector Association="BacLab_DBModel.myFK_group_MO" ManuallyRouted="false" />
+        <AssociationConnector Association="BacLab_DBModel.id_group_MO" ManuallyRouted="false" />
+        <AssociationConnector Association="BacLab_DBModel.myFK_Study" ManuallyRouted="false" />
+        <AssociationConnector Association="BacLab_DBModel.CategoryStaff_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="BacLab_DBModel.myFK_id_test" ManuallyRouted="false" />
+        <AssociationConnector Association="BacLab_DBModel.myFK_id_variant" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

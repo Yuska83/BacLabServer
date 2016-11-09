@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace BacLabServer
 {
-    [ServiceBehavior(ConcurrencyMode=ConcurrencyMode.Reentrant)]
+    //[ServiceBehavior(ConcurrencyMode=ConcurrencyMode.Reentrant)]
+    [ServiceBehavior(InstanceContextMode=InstanceContextMode.PerSession,IncludeExceptionDetailInFaults =true)]
     public class MessageService : IMessageService
     {
         private static List<CallbackChannel> subscribers = new List<CallbackChannel>();
